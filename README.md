@@ -2,7 +2,7 @@
 
 A simple digital clock that shows the current time as HH:MM:SS and updates every second. Built for Task 4 (Digital Clock) of my Web Development internship.
 
-**Live page:** YOUR_GITHUB_PAGES_LINK_HERE
+**Live page:** https://cedrick40.github.io/digital-clock/
 
 ## About the project
 
