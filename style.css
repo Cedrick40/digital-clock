@@ -1,0 +1,49 @@
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page: plain white, everything centered */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #1f5fbf;
+  margin-bottom: 20px;
+}
+
+/* The clock: white digits on a blue block */
+#clock {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #1f5fbf;
+  padding: 25px 45px;
+  border-radius: 6px;
+}
+
+/* Smaller screens */
+@media (max-width: 600px) {
+  #clock {
+    font-size: 2.8rem;
+    padding: 18px 25px;
+  }
+
+  h1 {
+    font-size: 0.9rem;
+  }
+}
